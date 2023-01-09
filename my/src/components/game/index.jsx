@@ -86,7 +86,7 @@ class Game extends React.Component {
                     <Board parentCallback = {this.handleCallback}/>
                 </div>
                 <div className="game-info">
-                    <div> Componente GAME: {this.state.winner}</div>
+                    <div> QUEM VENCEU FOI: {this.state.winner}</div>
                     <ol>{/*TODO*/}</ol>
                 </div>
             </div>
